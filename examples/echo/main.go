@@ -4,10 +4,10 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/aeppert/swag"
+	"github.com/aeppert/swag/endpoint"
+	"github.com/aeppert/swag/swagger"
 	"github.com/labstack/echo"
-	"github.com/savaki/swag"
-	"github.com/savaki/swag/endpoint"
-	"github.com/savaki/swag/swagger"
 )
 
 func handle(c echo.Context) error {

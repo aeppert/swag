@@ -4,10 +4,10 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/aeppert/swag"
+	"github.com/aeppert/swag/endpoint"
+	"github.com/aeppert/swag/swagger"
 	"github.com/julienschmidt/httprouter"
-	"github.com/savaki/swag"
-	"github.com/savaki/swag/endpoint"
-	"github.com/savaki/swag/swagger"
 )
 
 func handle(w http.ResponseWriter, _ *http.Request, _ httprouter.Params) {
